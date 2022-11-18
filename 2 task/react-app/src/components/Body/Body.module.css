@@ -1,0 +1,159 @@
+.body {
+    margin-top: 90px;
+    min-height: 456px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slogan {
+    width: 362px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    padding-bottom: 30px;
+}
+
+.slogan > span {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.description {
+    width: 275px;
+    height: 44px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.gifts {
+    text-align: right;
+}
+
+.giftsTitle {
+    width: 291px;
+    height: 44px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+}
+
+.giftsTitle > span {
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.giftItems {
+    padding-top: 40px;
+    height: 166px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    padding-bottom: 61px;
+}
+
+.itemTitle {
+    width: 134px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+}
+
+.itemDescription {
+    width: 134px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+button {
+    width: 262px;
+    height: 61px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E4E5EA;
+    background: #4077F3;
+    border: none;
+}
+
+@media screen and (max-width: 320px) {
+    .body {
+        margin: 40px 15px 0 15px;
+        display: block;
+        min-height: 0;
+        width: 290px;
+    }
+
+    .slogan {
+        width: 290px;
+        font-size: 36px;
+        line-height: 44px;
+        padding-bottom: 15px;
+    }
+
+    .slogan > span {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .gifts {
+        text-align: left;
+    }
+
+    .giftsTitle {
+        font-size: 18px;
+        line-height: 22px;
+        text-align: left;
+        margin-top: 45px;
+    }
+
+    .giftsTitle > span {
+        text-transform: none;
+    }
+
+    .giftItems {
+        padding-top: 20px;
+        height: 46px;
+    }
+
+    .itemTitle {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        height: 16px;
+        padding-bottom: 0;
+    }
+
+    .itemDescription {
+        display: none;
+    }
+
+    button {
+        display: none;
+    }
+}

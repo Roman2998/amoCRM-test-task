@@ -1,0 +1,152 @@
+.footer {
+    max-width: 1140px;
+    height: 315px;
+    display: flex;
+}
+
+.columnCompany {
+    padding-top: 55px;
+    width: 293px;
+}
+
+.columnMenu {
+    padding-top: 55px;
+    min-width: 408px;
+}
+
+.columnContacts {
+    padding-top: 55px;
+    width: 440px;
+    min-width: 277px;
+    right: 0;
+    text-align: right;
+}
+
+.socialNetworksContainer {
+    display: flex;
+    justify-content: end;
+}
+
+.socialNetworks {
+    width: 80px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.contactsItem {
+    padding-bottom: 20px;
+    height: 21px;
+}
+
+.columnTitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #656566;
+    padding-bottom: 20px;
+}
+
+.columnItems {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 150px;
+}
+
+.columnItem {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-bottom: 10px;
+    padding-right: 52px;
+}
+
+.security {
+    right: 0;
+    top: 260px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+}
+
+.rights {
+    padding-bottom: 5px;
+}
+
+.privacy {
+    text-decoration-line: underline;
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        margin: 0 15px;
+    }
+
+    .columnCompany {
+        padding-top: 45px;
+        width: 290px;
+    }
+
+    .columnMenu {
+        padding-top: 30px;
+        min-width: 290px;
+    }
+
+    .columnContacts {
+        padding-top: 30px;
+        text-align: left;
+        width: 290px;
+    }
+
+    .columnTitle {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .columnItems {
+        height: 152px;
+        width: 271px;
+    }
+
+    .columnItem {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        padding-right: 0;
+    }
+
+    .columnMenu .columnItem {
+        width: 125px;
+    }
+
+    .contactsItem {
+        padding-bottom: 8px;
+    }
+
+    .socialNetworksContainer {
+        justify-content: start;
+    }
+
+    .socialNetworks {
+        width: 92px;
+    }
+
+    .socialNetworks > svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .security {
+        padding-top: 50px;
+        padding-bottom: 60px;
+        text-align: left;
+    }
+}
